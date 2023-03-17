@@ -1,4 +1,4 @@
-package model;
+package cn.ypj.wowsrankbackend.model;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package model;
+package cn.ypj.wowsrankbackend.model;
 
 public class UserInfo {
     /**
