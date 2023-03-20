@@ -19,6 +19,6 @@ public class InsertUid {
 
     public static void main(String[] args) {
 
-    
+
     }
 }
