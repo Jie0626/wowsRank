@@ -17,7 +17,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 import cn.ypj.wowsrankbackend.model.UserInfo;
 import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Profile;
 
+@Profile("insert-uid")
 @SpringBootConfiguration
 @ComponentScan(basePackages = "cn.ypj.wowsrankbackend") // 这将确保扫描您的包以找到UserInfoService等组件
 public class InsertUid implements CommandLineRunner {
